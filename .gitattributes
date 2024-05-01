@@ -1,3 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.asset =lfs merge=lfs -text
+*.asset filter=lfs merge=lfs -text
